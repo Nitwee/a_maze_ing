@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mazegen"
+version = "1.0.0"
+dependencies = [
+"pydantic>=2.12.5",
+"textual>=8.0.0"
+]
+authors = [
+{ name="lumarcuc"}, {name="qrios"}]
+description = "A package to create and render mazes"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"]

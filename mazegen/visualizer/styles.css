@@ -1,0 +1,120 @@
+MazeViewer {
+  width: auto;
+  height: auto;
+  background: #1A1B26;
+}
+
+Header {
+  text-style: bold;
+}
+
+#stats {
+  width: 28;
+  height: 9;
+  border: solid #fff;
+}
+
+#config-inputs {
+  border: solid #fff;
+  overflow: auto;
+  width: 42;
+}
+
+#top-menu {
+  height: 9;
+  width: 100%;
+}
+
+#entry-line,
+#exit-line,
+#seed-line,
+#wh-line,
+#algo-line,
+#perf-save-line {
+  height: 5;
+}
+
+#v-width,
+#v-height,
+#v-seed,
+#v-file,
+#v-entry-x,
+#v-entry-y,
+#v-exit-x,
+#v-exit-y,
+#v-perf {
+  width: 16;
+}
+
+#v-gen-algo,
+#v-sol-algo {
+  width: 100%;
+  height: auto;
+}
+
+#input-gen-algo,
+#input-solver-algo,
+#input-perfect {
+  width: 100%;
+  height: auto;
+}
+
+#btn-save {
+  margin: 0 1;
+}
+
+#input-width,
+#input-height,
+#input-seed,
+#input-file,
+#input-entry-x,
+#input-entry-y,
+#input-exit-x,
+#input-exit-y {
+  width: 14;
+  height: 3;
+}
+
+#main {
+  height: 1fr;
+}
+
+#top-options {
+  height: 9;
+}
+
+#maze-container {
+  width: 1fr;
+  height: 1fr;
+  background: #1A1B26;
+  padding: 1;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+#maze {
+  width: auto;
+  padding: 0;
+  height: auto;
+}
+
+#sidebar {
+  width: 28;
+  height: 1fr;
+  padding: 1;
+  border: solid #fff;
+  overflow: auto;
+}
+
+#actions-title {
+  text-style: bold;
+  content-align: center middle;
+  text-align: center;
+  height: 2;
+  margin-bottom: 1;
+}
+
+#sidebar Button {
+  width: 100%;
+  margin: 1 0;
+}
